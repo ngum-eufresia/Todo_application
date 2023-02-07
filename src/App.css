@@ -1,0 +1,231 @@
+@font-face {
+    font-family: cairo;
+    src: url('fonts-6/Cairo-Regular.ttf');
+}  
+@font-face {
+    font-family:Khand ;
+    src: url('fonts-6/Khand-Bold.ttf');
+}
+
+.fa-bell,
+.fa-circle-user{
+    font-size: 30px;
+}
+
+.search-input {
+    background: transparent;
+    border-radius: 999999px;
+    width: 348px !important;
+    background-color: #076FB4;
+    
+}
+.input-item{
+    border-top-left-radius: 99px !important;
+    border-bottom-left-radius: 99px !important;
+    background: transparent;
+    background-color:#076FB4 !important;
+    /* border-color: white; */
+    border-right: none !important;
+
+}
+.search-icon{
+    background: transparent !important;
+    border-top-right-radius: 99px !important;
+    border-bottom-right-radius: 99px !important;
+    border-color: white;
+}
+.todo-task{
+
+    background-color: #E1E1E1;
+    height: 100vh;
+}
+
+.header{
+    background-color: #076FB4;
+}
+
+.sidebar{
+    /* padding-left: 23px; */
+    font-size: 17px;
+    text-decoration:none !important ;
+}
+.nav-link :hover{
+    color: none !important;
+    
+   
+}
+.date-track{
+    font-size: 9px;
+  
+    
+}
+.sub-todo{
+    position: relative;
+    left: 2px;
+}
+.first-task{
+    background-color: #EEF8FF;
+    border-radius: 10px;
+    border:2px;
+
+}
+.first-task:hover{
+    cursor: pointer;
+    color: blue;
+    
+    
+}
+div .nav-tabs .nav .nav-link{
+    color:transparent;
+    color:#707070;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.nav-tabs .nav .nav-link:hover{
+    color:blue;
+
+}
+
+.nav-link {
+    border :none !important;
+    text-decoration: none !important;
+
+}
+.nav-item{
+    padding-right: 0px !important;
+    margin-right: 0px !important;
+}
+.nav-tabs{
+    color:#707070
+}
+
+
+
+.myTask{
+   background-color: #EEF8FF;  
+   border-radius: 7px;
+}
+.modal-title{
+    /* padding-left: 50px; */
+}
+
+.active{
+    background-color: #E1E1E1 !important;
+    color: #707070;
+}
+
+.actions{
+    padding-top: 4px;
+}
+
+.add-todo{
+    margin-top: 182px;
+    max-height: 100%;
+}
+.add-but:hover{
+    background-color: #707070;
+}
+
+.add{
+position: relative;  
+bottom:-296px; 
+width: 95px;
+height: 95px;
+border-radius: 46px;
+background-color: #FFFFFF;
+box-shadow: 0px 3px 4px #00000029;
+opacity: 1;
+/* padding-bottom: 56px; */
+}
+
+.time-track{
+    font-size: 14px;
+}
+.date-track {
+    display: none;
+}
+
+.lorem{
+    font-size:16px ;
+}
+.detail{
+    height: 114px;
+    background-color:none;
+    background-color: #F6F6F6 !important;
+}
+.end-date,
+.start-date,
+.task-input{
+    background-color:none;
+    background-color: #F6F6F6 !important;
+}
+.my-detail{
+    /* background-color: #F6F6F6 !important; */
+}
+
+.my-detail input[type="text"]{
+    padding-bottom: 78px;
+}
+
+/* .popup{
+display: none;
+} */
+.popup-content{
+    border: none;
+    position: relative;
+    top:-487px;
+
+}
+
+
+    
+.delete-but{
+    border:none;
+    text-decoration: none;
+    background:transparent ;
+}
+.but-add{
+     border:none;
+    text-decoration: none;
+    background:transparent ;
+}
+
+
+/* .collapse{
+    line-height: 0px;
+} */
+
+.delete-but :hover{
+    color:red;
+
+}
+
+.arrow{
+    position: relative;
+    right: 17px;
+    width: 17px;
+    top: -13px;
+}
+.todo-body{
+    background-color: #F6F6F6;
+    font-family:cairo;
+    color: #707070;
+    height: 100vh;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .add-but{
+        position: relative;
+        right:   -155px;
+    }
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+/* @media only screen and (min-width: 600px) {...} */
+/* Medium devices (landscape tablets, 768px and up) */
+/* @media only screen and (min-width: 768px) {...} */
+/* Large devices (laptops/desktops, 992px and up) */
+/* @media only screen and (min-width: 992px) {...} */
+/* Extra large devices (zlarge laptops and desktops, 1200px and up) */
+/* @media only screen and (min-width: 1200px) {...} */
