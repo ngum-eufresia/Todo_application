@@ -2,7 +2,6 @@ import React from 'react'
 import './App.css';
 import TodoList from './components/TodoList';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './boostrap/css/bootstrap.min.css';
 import './boostrap/js/bootstrap.min.js';
 import { Route, Routes } from "react-router-dom"
 import Header from './components/Header';
@@ -20,13 +19,13 @@ function App() {
     
  <div>
    <Header></Header>
-    <div className='container-fluid'> 
+    <div className='container-fluid p-0 todo-body'> 
      <div className='row'>
-      <div className='col-md-3'>
+      <div className='col-md-3 p-0'>
         <Sidebar />
       </div>
       <div className='col-md-9'>
-    <Routes>
+        <Routes>
           <Route path="/today" element={<Today />} />
           <Route path="/" element={<Yesterday />} />
           <Route path="/important" element={<Important />} />
@@ -36,7 +35,6 @@ function App() {
       </div>
       </div>
    </div>
-   <TodoList></TodoList>
 </div>
   )
 }

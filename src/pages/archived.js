@@ -1,6 +1,5 @@
 import React from 'react'
-import TodoList from '../components/TodoList'
-import Details from '../components/Details'
+import TodoList from '../components/TodoList';
 
 
 export default function archived() {

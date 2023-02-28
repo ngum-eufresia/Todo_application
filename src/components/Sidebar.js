@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link, useMatch, useResolvedPath } from "react-router-dom"
-import 'bootstrap/dist/css/bootstrap.min.css';
-import '../boostrap/css/bootstrap.min.css';
+// import 'bootstrap/dist/css/bootstrap.min.css';
+// import '../boostrap/css/bootstrap.min.css';
 
 
 export default function Sidebar() {
@@ -11,10 +11,12 @@ export default function Sidebar() {
 
       return (
         <div className={isActive ? "active" : ""}>
+          <div className='pb-2 p-2'>
           <Link to={to} {...props}>
             {children}
           </Link>
         </div>
+       </div>
       )
   }
 
@@ -22,21 +24,18 @@ export default function Sidebar() {
          <div>
             
             <div className="" id="nav-tab">
-                <div className="ps-4 p-2 nav-item ">
-                    <CustomLink to="/today" content-id="today-task">Today's Task</CustomLink>
+                <div className=" nav-item ">
+                    <CustomLink to="/today" content-id="today-task" className = "nav-text" >Today's Task</CustomLink>
                 </div>
-                <div className="ps-4 p-2">
-                    <Link to="/" content-id="yesterday-task">Yesterday</Link>
-                </div>
-                <div className=" ps-4 pb-2">
-                    <CustomLink to="/important" content-id="important-task">Important</CustomLink>
-                </div>
-                <div className="ps-4 pb-2">
-                  <CustomLink to="/archived" content-id="archived-task">Archived</CustomLink>
-                </div>
-                <div className="ps-4">
-                    <CustomLink to="/completed" content-id="completed-task">Completed</CustomLink>
-                </div>
+              
+                  <CustomLink to="/" content-id="yesterday-task" className = "nav-text" >Yesterday</CustomLink>
+
+                  <CustomLink to="/important" content-id="important-task"  className = "nav-text" >Important</CustomLink>
+                
+                  <CustomLink to="/archived" content-id="archived-task"  className = "nav-text">Archived</CustomLink>
+                
+                  <CustomLink to="/completed" content-id="completed-task"  className = "nav-text">Completed</CustomLink>
+              
             </div>
 
           </div>

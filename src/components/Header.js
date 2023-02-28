@@ -1,8 +1,8 @@
 
 import React, { useState } from 'react';
 import { Link, useMatch, useResolvedPath } from "react-router-dom"
-import 'bootstrap/dist/css/bootstrap.min.css';
-import '../boostrap/css/bootstrap.min.css';
+// import 'bootstrap/dist/css/bootstrap.min.css';
+// import '../boostrap/css/bootstrap.min.css';
 
 export default function Header(){
  
@@ -26,7 +26,7 @@ export default function Header(){
                         <form>
                             <div className="d-flex align-items-center">
                                 <div className="input-group search-input">
-                                    <input type="text" className="form-control input-item border-light"
+                                    <input type="text" className="form-control input-item"
                                         placeholder="" aria-label="Recipient's username"
                                         aria-describedby="basic-addon2"></input>
                                     <span className="input-group-text search-icon" id="basic-addon2">

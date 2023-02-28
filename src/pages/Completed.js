@@ -1,6 +1,6 @@
 
-import 'bootstrap/dist/css/bootstrap.min.css';
-import '../boostrap/css/bootstrap.min.css';
+// import 'bootstrap/dist/css/bootstrap.min.css';
+// import '../boostrap/css/bootstrap.min.css';
 import Details from '../components/Details';
 import TodoList from '../components/TodoList';
 

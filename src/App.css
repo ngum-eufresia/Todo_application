@@ -11,6 +11,9 @@
 .fa-circle-user{
     font-size: 30px;
 }
+.todo-body{
+    background-color: #E1E1E1;
+}
 
 .search-input {
     background: transparent;
@@ -82,37 +85,32 @@
     font-weight: 300;
 }
 
-.nav-tabs .nav .nav-link:hover{
-    color:blue;
-
+.nav-text{
+    padding-left:33px;
+    text-decoration: none;
+    color:transparent;
+    color: #707070;
+    padding-top: 15px;
 }
 
-.nav-link {
-    border :none !important;
-    text-decoration: none !important;
-
-}
-.nav-item{
-    padding-right: 0px !important;
-    margin-right: 0px !important;
-}
-.nav-tabs{
-    color:#707070
-}
-
-
-
-.myTask{
+.main-task{
    background-color: #EEF8FF;  
    border-radius: 7px;
+   padding-top: 12px;
 }
+.sub-task{
+    border-radius: 7px;
+    padding-top: 5px;
+
+}
+
 .modal-title{
     /* padding-left: 50px; */
 }
 
 .active{
     background-color: #E1E1E1 !important;
-    color: #707070;
+
 }
 
 .actions{
@@ -186,9 +184,13 @@ display: none;
     background:transparent ;
 }
 .but-add{
-     border:none;
+    border:none;
     text-decoration: none;
     background:transparent ;
+}
+.but-add:hover{
+    background: none;
+    border:none;
 }
 
 
